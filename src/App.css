@@ -1,0 +1,109 @@
+.body {
+  
+  background-color: #e0aaff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+.App {
+    text-align: center;
+    min-width: 70vw;
+    min-height: 50vh;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    
+  padding: 2rem 0;
+
+}
+
+.App-header {
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-header > h1 {
+  font-size: 2rem;
+}
+  
+.App-logo {
+    height: 10vmin;
+    pointer-events: none;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Select some files';
+  display: inline-block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.send-to-ipfs {
+  border: none;
+  outline: none;
+  background-color: rgb(165, 219, 221);
+  padding: 10px;
+  border-radius: 3px;
+}
+.view-trx-details{
+  border: none;
+  outline: none;
+  background-color: rgb(101, 157, 221);
+  padding:  10px;
+  border-radius: 3px;
+}
+
+.table-body {
+  padding: 1rem 3rem;
+  text-align: left;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.h1 {
+    font-size: 1.4em;
+    color: #980000;
+}
+
+.App-link {
+  color: #980000;
+  font-size: 0.6em;
+}
